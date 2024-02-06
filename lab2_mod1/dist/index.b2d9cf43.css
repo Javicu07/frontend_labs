@@ -1,0 +1,45 @@
+body {
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+body > div {
+  border-radius: 10px;
+  margin: 12px;
+  padding: 5px;
+  font-family: helvetica;
+}
+
+body .base {
+  background-color: #00f;
+}
+
+body .important {
+  background-color: #006;
+}
+
+body .warning {
+  background-color: #99f;
+}
+
+body .font {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+body .font .secondary_font {
+  font-family: georgia;
+}
+
+body .box_shadow {
+  border: 2px solid #000;
+  box-shadow: 5px 12px 18px #ff0;
+}
+
+/*# sourceMappingURL=index.b2d9cf43.css.map */
