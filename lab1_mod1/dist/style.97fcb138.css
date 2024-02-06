@@ -1,0 +1,186 @@
+/*Style*/
+/*Variables*/
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  font-family: Sans-serif;
+  color: rgb(10, 4, 4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  gap: 3px;
+  /*  & > div{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          flex-grow: 1;
+          gap: $gap;
+      }
+  */
+}
+body .container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  gap: 3px;
+}
+body .container-1 .box-1 {
+  background-color: hsl(0deg, 100%, 10%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-2 {
+  background-color: hsl(0deg, 100%, 20%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-3 {
+  background-color: hsl(0deg, 100%, 30%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-4 {
+  background-color: hsl(0deg, 100%, 40%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-5 {
+  background-color: hsl(0deg, 100%, 50%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-6 {
+  background-color: hsl(0deg, 100%, 60%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-7 {
+  background-color: hsl(0deg, 100%, 70%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-8 {
+  background-color: hsl(0deg, 100%, 80%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-1 .box-9 {
+  background-color: hsl(0deg, 100%, 90%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  gap: 3px;
+}
+body .container-2 .box-1 {
+  background-color: hsl(240deg, 100%, 10%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-2 {
+  background-color: hsl(240deg, 100%, 20%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-3 {
+  background-color: hsl(240deg, 100%, 30%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-4 {
+  background-color: hsl(240deg, 100%, 40%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-5 {
+  background-color: hsl(240deg, 100%, 50%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-6 {
+  background-color: hsl(240deg, 100%, 60%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-7 {
+  background-color: hsl(240deg, 100%, 70%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-8 {
+  background-color: hsl(240deg, 100%, 80%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-2 .box-9 {
+  background-color: hsl(240deg, 100%, 90%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  gap: 3px;
+}
+body .container-3 .box-1 {
+  background-color: hsl(300deg, 100%, 10%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-2 {
+  background-color: hsl(300deg, 100%, 20%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-3 {
+  background-color: hsl(300deg, 100%, 30%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-4 {
+  background-color: hsl(300deg, 100%, 40%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-5 {
+  background-color: hsl(300deg, 100%, 50%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-6 {
+  background-color: hsl(300deg, 100%, 60%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-7 {
+  background-color: hsl(300deg, 100%, 70%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-8 {
+  background-color: hsl(300deg, 100%, 80%);
+  padding: 10px;
+  border-radius: 10px;
+}
+body .container-3 .box-9 {
+  background-color: hsl(300deg, 100%, 90%);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

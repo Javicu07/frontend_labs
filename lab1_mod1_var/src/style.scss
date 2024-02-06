@@ -1,0 +1,53 @@
+@import "var.scss";
+@import "functions.scss";
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    font-family: $myFontFamily;
+    color: $myFontColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $myPrimmaryColor;
+    gap: $gap;
+
+
+    @for $myTempVarCont from 1 through 7{
+        .container-#{$myTempVarCont}{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            flex-grow: 1;
+            gap: $gap;
+
+            $color: red;
+            $color: select-color($myTempVarCont);
+            .box-basecolor{
+                background-color: $color;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            @for $myTempVar from 1 through 4{
+                
+                .box-darken-#{$myTempVar}{
+                    background-color: darken($color, $myTempVar*10);
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+
+                .box-lighten-#{$myTempVar}{
+                    background-color: lighten($color, $myTempVar*10);
+                    padding: 10px;
+                    border-radius: 10px;
+                }
+                
+            }
+        }
+        
+    }
+}

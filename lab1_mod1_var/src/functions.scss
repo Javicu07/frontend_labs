@@ -1,0 +1,8 @@
+$palet: red, blue, purple, yellow, orange, green, pink;
+$index: 1;
+
+@function select-color($index){
+    $color: nth($palet , $index);
+    @return $color;
+}
+
